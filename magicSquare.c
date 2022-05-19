@@ -9,7 +9,7 @@ int main () {
     temp = magicSquare(Magic);
 
     //print resut
-    printf("The square is %s MAGIC\n", (temp == 0) ? "is" : "is NOT");
+    printf("The square %s MAGIC\n", (temp == 0) ? "is" : "is NOT");
 }
 int magicSquare(int square[SIZE][SIZE]) {
     int magic = 0, row, col, temp, sum = 0;
