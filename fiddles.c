@@ -1,6 +1,8 @@
 //for fiddling with short codes
 #include <stdio.h>
+#include <string.h>
 int main() {
+<<<<<<< HEAD
     int size, ctr, temp;
 
     //get size
@@ -26,3 +28,9 @@ int main() {
         }
     }
 } 
+=======
+    char arr[] = "test";
+
+    printf("%s", strrev(arr));
+}
+>>>>>>> 6d5effd2d2b73b67c2cb2ba55c6afe6313e83f70

@@ -28,4 +28,4 @@ int findSort(LIST A, char elem) {
     //check if loop stops when element in list is greater than elem
     printf("%d\n", ctr);
     return temp;
-}
+}   
