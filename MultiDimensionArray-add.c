@@ -29,9 +29,11 @@ int ** addTwoDimensional(MyMatrix arrA, MyMatrix arrB) {
 
 
     //get the sums
-    for (row = 0; row < 4; row++) {
-        for (col = 0; col < 3; col++) {
-            array[row][col] = arrA[row][col] + arrB[row][col];
+    if (array) {
+        for (row = 0; row < 4; row++) {
+            for (col = 0; col < 3; col++) {
+                array[row][col] = arrA[row][col] + arrB[row][col];
+            }
         }
     }
 
