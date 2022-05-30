@@ -3,10 +3,10 @@
 int * selectionSort(int * array, int size);
 int displayList(int array[], int size);
 int main() {
-    int array[10] = {7, 3, 2, 5, 8, 1, 4, 0, 9, 6};
+    int array[5] = {9, 4, 2, 6, 3};
 
-    selectionSort(array, 10);
-    displayList(array, 10);
+    selectionSort(array, 5);
+    displayList(array, 5);
 }
 int * selectionSort(int * array, int size) {
     int ctrOut, ctrIn, temp, min;
