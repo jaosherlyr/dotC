@@ -38,3 +38,15 @@ void displayList(NODE temp) {
         temp = temp->link;
     }
 }
+
+void deteleElem(List * L, char elem, VirtualHeap * VH) {
+    List * trav, temp;
+
+    for (trav = L; *trav != NULL && VH->Nodes[*trav].data != elem; *trav = VH->Nodes[*trav].link) {
+        if (*trav != -1) {
+            temp = *trav;
+            *trav = VH->Nodes[temp].link;
+            deallocSpace(temp, VH);  
+        }
+    }
+}
