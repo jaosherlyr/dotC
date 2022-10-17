@@ -27,7 +27,9 @@ SET * Union(SET A, SET B) {
 	
 	for (ctr = 0; ctr < size; ctr++) {
 		(*C)[ctr] = (A[ctr] == 1 || B[ctr] == 1);
+        //will return 1 if true and 0 if false
 	}
 	
 	return C;
+    //returns whatever *C is pointing to
 }
