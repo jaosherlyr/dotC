@@ -28,7 +28,7 @@ void create(array list) {
     list->adj[++list->last] = -1;
 
     list->Head[4] = list->last + 1;
-    list->adj[++list->last] = 1;
+    list->adj[++list->last] = 3;
     list->adj[++list->last] = -1;
 }
 
