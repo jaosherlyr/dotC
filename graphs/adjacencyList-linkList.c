@@ -37,7 +37,7 @@ void list(array * H) {
     *trav = NULL;
 
     trav = &(H[4]);
-    insertNode(1, &trav);
+    insertNode(3, &trav);
     *trav = NULL;
 }
 
